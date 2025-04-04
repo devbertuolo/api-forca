@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "yvVvJbKGhOYjXvLFTjEEkHpZpyluprG7XKipEPyioIE=",
+  "Source": "TodoApi",
+  "BasePath": "_content/TodoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TodoApi\\wwwroot",
+      "Source": "TodoApi",
+      "ContentRoot": "D:\\Dev\\Project\\Portfolio #5\\api\\wwwroot\\",
+      "BasePath": "_content/TodoApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
