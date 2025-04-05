@@ -3,6 +3,10 @@ using TodoApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar a porta para Azure
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://*:{port}");
+
 // Configura o CORS
 builder.Services.AddCors(options =>
 {
